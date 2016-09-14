@@ -748,6 +748,15 @@ add_task(
     '''
 )
 
+add_task(
+    id='Warehouse-v0',
+    group='toy_text',
+    experimental=True,
+    contributor='jn2clark',
+    summary='Optimizing the workflow of pickers in a warehouse.',
+    # description='',
+)
+
 ram_desc = "In this environment, the observation is the RAM of the Atari machine, consisting of (only!) 128 bytes."
 image_desc = "In this environment, the observation is an RGB image of the screen, which is an array of shape (210, 160, 3)"
 
