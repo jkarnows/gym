@@ -183,6 +183,12 @@ register(
     timestep_limit=200,
 )
 
+register(
+    id='Warehouse-v0',
+    entry_point='gym.envs.toy_text.warehouse:Warehouse',
+    timestep_limit=200,
+)
+
 # Mujoco
 # ----------------------------------------
 
